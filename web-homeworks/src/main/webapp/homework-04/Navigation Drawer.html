@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <title>Title</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .area{
+            padding:10px;
+            border:2px solid #f08c00;
+            background-color: #ffec99;
+            border-radius:5px;
+        }
+        .row{
+            display:flex;
+            flex-wrap:nowrap;
+            align-items:flex-start;
+        }
+        .nav-sidebar{
+            min-width: 180px;
+        }
+        .nav-sidebar{
+            list-style-type:none;
+            padding:0;
+        }
+        .nav-sidebar a{
+            display: block;
+            padding:8px 15px;
+            text-decoration: none;
+        }
+        .nav-sidebar a:hover{
+            background-color: #f2f2f2;
+        }
+
+        a{
+
+        }
+        /* 分12列 */
+        .col-md-1 {width: 8.33333333%;}
+        .col-md-2 {width: 16.66666667%;}
+        .col-md-3 {width: 25%;}
+        .col-md-4 {width: 33.33333333%;}
+        .col-md-5 {width: 41.66666667%;}
+        .col-md-6 {width: 50%;}
+        .col-md-7 {width: 58.33333333%;}
+        .col-md-8 {width: 66.66666667%;}
+        .col-md-9 {width: 75%;}
+        .col-md-10 {width: 83.33333333%;}
+        .col-md-11 {width: 91.66666667%;}
+        .col-md-12 {width: 100%;}
+
+        /* ------------------------------------------- */
+        @media (max-width: 600px) {
+            .col-sm-1 {width: 8.33333333%;}
+            .col-sm-2 {width: 16.66666667%;}
+            .col-sm-3 {width: 25%;}
+            .col-sm-4 {width: 33.33333333%;}
+            .col-sm-5 {width: 41.66666667%;}
+            .col-sm-6 {width: 50%;}
+            .col-sm-7 {width: 58.33333333%;}
+            .col-sm-8 {width: 66.66666667%;}
+            .col-sm-9 {width: 75%;}
+            .col-sm-10 {width: 83.33333333%;}
+            .col-sm-11 {width: 91.66666667%;}
+            .col-sm-12 {width: 100%;}
+        }
+        @media (max-width: 600px) {
+            .nav-sidebar {
+                min-width: 80px;
+            }
+            span{
+                display:none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="row">
+    <div class="area nav-sidebar col-md-3 col-sm-1">
+        <ul>
+            <li><a herf=""><i class="material-icons">bug_report</i><span>Dashboard</span></a></li>
+            <li><a herf=""><i class="material-icons">bug_report</i><span>Dashboard</span></a></li>
+            <li><a herf=""><i class="material-icons">bug_report</i><span>Dashboard</span></a></li>
+            <li><a herf=""><i class="material-icons">bug_report</i><span>Dashboard</span></a></li>
+            <li><a herf=""><i class="material-icons">bug_report</i><span>Dashboard</span></a></li>
+        </ul>
+    </div>
+    <div class="area col-md-9 col-sm-11">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem, eligendi impedit ipsam ipsum
+            non similique! Aut dolorum esse expedita, harum ipsum libero, numquam obcaecati provident recusandae
+            sint sit suscipit veritatis voluptas.</p>
+    </div>
+
+</div>
+</body>
+</html>

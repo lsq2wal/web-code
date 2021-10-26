@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .badge{
+            position: relative;
+            width:100px;
+            background-color: white;
+            border: orange solid;
+        }
+        .badge-content{
+
+            border: deepskyblue solid;
+        }
+        .badge-wrapper{
+            position: absolute;
+            border-radius: 15px;
+            background-color: white;
+            height: 36px;
+            width:36px;
+            top:12px;
+            right:8px;
+        }
+        .badge-number{
+            color:white;
+            font-size: 22px;
+            background-color: red;
+            border-radius: 15px;
+            height: 30px;
+            width:30px;
+            margin-top: 2px;
+            margin-left: 3px;
+        }
+        .material-icons{
+            font-size: 100px;
+            color:deepskyblue;
+        }
+
+    </style>
+</head>
+<body>
+<div class="badge">
+    <div class="badge-content">
+        <i class="material-icons">bug_report</i>
+    </div>
+    <div class="badge-wrapper">
+        <div class="badge-number">12</div>
+    </div>
+</div>
+</body>
+</html>
